@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+	body {
+  	font-family: Helvetica, Arial, sans-serif;
+  	background-color: #F28C28;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100vh;
+	}
+	.container {
+  	max-width: 400px;
+  	padding: 40px;
+  	background-color: #FFFFFF;
+  	border-radius: 8px;
+  	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+	.container h2 {
+  	text-align: center;
+  	color: #1434A4;
+  	margin-bottom: 30px;
+	}
+	.container input[type="text"],
+	.container input[type="password"] {
+  	width: 100%;
+  	padding: 12px 16px;
+  	border: none;
+  	border-radius: 4px;
+  	margin-bottom: 20px;
+  	box-sizing: border-box;
+	}
+	.container input[type="submit"] {
+  	width: 100%;
+  	padding: 12px 16px;
+  	background-color: #1434A4;
+  	color: #FFFFFF;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	transition: background-color 0.3s ease;
+	}
+	.container input[type="submit"]:hover {
+  	background-color: #0F2878;
+	}
+  </style>
+</head>
+<body>
+  <div class="container">
+	<h2>Welcome Back!</h2>
+	<form>
+  	<input type="text" placeholder="Username">
+  	<input type="password" placeholder="Password">
+  	<input type="submit" value="Login">
+	</form>
+  </div>
+</body>
+<head>
+  <title>Create Account</title>
+  <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #F28C28;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      max-width: 400px;
+      padding: 40px;
+      background-color: #FFFFFF;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .container h2 {
+      text-align: center;
+      color: #1434A4;
+      margin-bottom: 30px;
+    }
+    .container input[type="text"],
+    .container input[type="email"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 12px 16px;
+      background-color: #1434A4;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .container input[type="submit"]:hover {
+      background-color: #0F2878;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+ <h2>Create Account</h2>
+    <form>
+      <input type="text" placeholder="Username">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Sign Up">
+    </form>
+  </div>
+</body>
+</html>
+
